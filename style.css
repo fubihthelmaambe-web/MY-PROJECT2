@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Profile section */
+.profile {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: blue;
+    font-size: 32px;
+}
+
+h2 {
+    color: green;
+}
+
+/* Paragraph text */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Profile image */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid blue;
+}
+
+/* Flexbox interests section */
+.interests {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Interest cards */
+.card {
+    background-color: lightblue;
+    padding: 20px;
+    width: 120px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    color: gray;
+}
